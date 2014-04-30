@@ -11,7 +11,7 @@ body {
 .home {
 	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
 	background position: absolute fixed;
-	height: 522px;
+	height: 523px;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
@@ -83,6 +83,7 @@ body {
 	letter-spacing: 0.1px;
 	font-size: 17px;
 	font-family: 'PT Sans';
+	line-height: 129%;
 }
 
 .container {
@@ -98,17 +99,79 @@ body {
 	float: left;
 	width: 71%;
 	padding-top: 12px;
-	position: relative;
+	position: block;
 	margin: 0 auto;
 }
 
-.leftcontent span {
+.left-a span {
 	color: #083452;
 	letter-spacing: 0.1px;
 	line-height: 112%; 
 	font-size: 63px;
 	font-family: 'Oswald';
 }
+
+.left-b {
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.left-b img {
+	float: none;
+	height: 24px;
+	width: 24px;
+	padding-top: 5px;
+	padding-right: 9px;
+}
+
+.left-c {
+	display: inline-block;
+	float: left;
+	padding-top: 6px;
+	padding-right: 17px;
+}
+
+.left-c p {
+	color: #106db3;
+	font-size: 14px;
+	letter-spacing: -0.4px;
+	font-family: 'Asap';
+	float: left;	
+	line-height: 0px;
+}
+
+.left-d {	
+	display: inline-block;
+	float: left;
+	padding-top: 6px;
+}
+
+.left-d p {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-family: 'PT Sans';
+	line-height: 0px;
+}
+
+.left-d a {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-family: 'PT Sans';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .rightbar {
 	margin: 0 auto;
