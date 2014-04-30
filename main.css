@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, span {
-	font-family: 'Oswald', 'PT Sans', 'PT Sans Narrow', sans-serif;
+	font-family: 'Oswald', 'PT Sans', 'Asap', 'PT Sans Narrow', sans-serif;
 }
 
 body {
@@ -87,6 +87,7 @@ body {
 
 .container {
 	width: 989px;
+	height: 1007px;
 	margin: 0 auto;
 	padding-top: 50px;
 	position: relative;
@@ -95,8 +96,10 @@ body {
 .leftbar {
 	text-align: left;
 	float: left;
-	width: 75%;
+	width: 71%;
 	padding-top: 12px;
+	position: relative;
+	margin: 0 auto;
 }
 
 .leftcontent span {
@@ -111,41 +114,105 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	float: right;
-	width: 25%;
+	width: 29%;
 	padding-top: 33px;
 	position: relative;
 	display: block;
 }
 
-.sociala span {
+.social-a span {
 	float: center;
 }
 
-.socialb {
+.social-b {
 	margin-top: 12px;
 }
 
-.socialb span {
+.social-b span {
 	color: #106db3;
 	letter-spacing: 0.1px;
 	font-size: 17px;
 	font-family: 'PT Sans';
 }
 
-.socialc span {
+.social-c span {
 	color: #a3b3bf;
 	letter-spacing: 0.2px;
 	font-size: 14px;
 	font-family: 'PT Sans';
 }
 
-.contenta span {
+.content-a {
+	margin-top: 52px;
+	float: center;	
+}
+
+.content-b {
+	margin-top: 6px;
+	float: center;
+	text-align: right;	
+}
+
+.content-b a {
+	color: #a3b3bf;
+	font-size: 14px;
+	font-family: 'PT Sans';
+}
+
+.content-c {
+	margin-top: 44px;
+	float: center;
+	text-align: left;
+	margin-bottom: 4px;
+}
+
+.content-c span {
+	color: #106db3;
+	font-size: 18px;
+	letter-spacing: -0.2px;
+	font-family: 'Oswald';
+}
+
+.content-d {
+	color: #a3b3bf;
+	text-align: left;
+}
+
+.content-d span {
+	font-family: 'Asap';
+	font-size: 14px;
+	letter-spacing: -0.2px;
+	line-height: 175%;
 }
 
 .footer {
+	max-width: 100%;
+	height: 300px;
+	background-color: #000000;
 }
 
 .one {
+	max-width: 25%;
+	float: left;
+	height: 300px;
+}
+
+.two {
+	max-width: 25%;
+	float: left;
+	height: 300px;
+}
+
+.three {
+	max-width: 25%;
+	float: left;
+	height: 300px;
+}
+
+.four {
+	max-width: 25%;
+	float: left;
+	height: 300px;
 }
 
 
