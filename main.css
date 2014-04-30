@@ -1,0 +1,153 @@
+h1, h2, h3, h4, h5, h6, span {
+	font-family: 'Oswald', 'PT Sans', 'PT Sans Narrow', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	z-index: 1;
+}
+
+.home {
+	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
+	background position: absolute fixed;
+	height: 522px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.overlay {
+	background: rgba(17,117,192,0.83 );
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.inside {
+	position: relative;
+	width: 989px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+
+.nav {
+	height: 224px;
+	color: #083541;
+}
+
+.left span {
+	text-align: left;
+	float: left;
+	padding-top: 10px
+}
+
+.leftside span {
+	text-align: left;
+	float: left;
+	font-size: 19px;
+	font-family: 'PT Sans Narrow';
+	padding-left: 13px;
+	padding-top: 22px;
+}
+
+.rightside span img {
+	text-align: right;
+	float: right;
+	height: 18px;
+	padding-top: 23px;
+}
+
+.right span {
+	text-align: right;
+	float: right;
+	padding-left: 10px; 
+	font-size: 19px;
+	font-family: 'Oswald';
+	padding-right: 3px;
+	padding-top: 18px;
+}
+
+.maintitle span {
+	color: #ffffff;
+	font-size: 106px;
+	letter-spacing: -1.7px;
+	font-family: 'PT Sans';
+	line-height: 84%;
+}
+
+.tagline span {
+	color: #083452;
+	letter-spacing: 0.1px;
+	font-size: 17px;
+	font-family: 'PT Sans';
+}
+
+.container {
+	width: 989px;
+	margin: 0 auto;
+	padding-top: 50px;
+	position: relative;
+}
+
+.leftbar {
+	text-align: left;
+	float: left;
+	width: 75%;
+}
+
+.leftcontent span {
+	color: #083452;
+	letter-spacing: 0.1px;
+	font-size: 63px;
+	font-family: 'Oswald';
+}
+
+.rightbar {
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+	width: 25%;
+	padding-top: 35px;
+	position: relative;
+	display: block;
+}
+
+.sociala span {
+	float: center;
+}
+
+.tall {
+	margin-bottom: 11px;
+}
+
+.socialb span {
+	color: #106db3;
+	letter-spacing: 0.1px;
+	font-size: 14px;
+	font-family: 'PT Sans';
+}
+
+.socialc span {
+	color: #a3b3bf;
+	letter-spacing: 0.1px;
+	font-size: 14px;
+	font-family: 'PT Sans';
+}
+
+.contenta span {
+}
+
+.footer {
+}
+
+.one {
+}
+
+
+
+
+
+
