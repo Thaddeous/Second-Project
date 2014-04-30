@@ -101,6 +101,7 @@ body {
 .leftcontent span {
 	color: #083452;
 	letter-spacing: 0.1px;
+	line-height: 112%; 
 	font-size: 63px;
 	font-family: 'Oswald';
 }
@@ -115,24 +116,24 @@ body {
 	display: block;
 }
 
-.socialb {
-	margin-top: 15px;
-}
-
 .sociala span {
 	float: center;
+}
+
+.socialb {
+	margin-top: 12px;
 }
 
 .socialb span {
 	color: #106db3;
 	letter-spacing: 0.1px;
-	font-size: 14px;
+	font-size: 17px;
 	font-family: 'PT Sans';
 }
 
 .socialc span {
 	color: #a3b3bf;
-	letter-spacing: 0.1px;
+	letter-spacing: 0.2px;
 	font-size: 14px;
 	font-family: 'PT Sans';
 }
