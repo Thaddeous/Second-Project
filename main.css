@@ -10,7 +10,6 @@ body {
 
 .home {
 	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
-	background position: absolute fixed;
 	height: 523px;
 	position: relative;
 	margin: 0 auto;
@@ -316,38 +315,91 @@ body {
 }
 
 
-.footer {
-	max-width: 100%;
-	height: 300px;
-	background: rgba(17,117,192,0.83 );
+footer {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
 }
 
-.one {
-	max-width: 25%;
-	float: left;
-	height: 300px;
+.inside-2 {
+	margin: 0 auto;
+	width: 1300px;
 }
+
+	
+.one {
+	background-image: url("http://s3.favim.com/orig/41/boy-guy-surf-surfer-surfing-Favim.com-344177.jpg") ;
+	background-size: cover;
+	float: left;
+	display: inline;
+	position: relative;
+	width: 25%;
+	height: 330px;
+	color: #FFFFFF;
+}
+
 
 .two {
-	max-width: 25%;
+	background-image: url("http://pigpartsandbeer.com/wp-content/uploads/2013/07/beer-flight.jpg-.jpg") ;
+	background-size: cover;
 	float: left;
-	height: 300px;
+	display: inline;
+	position: relative;
+	width: 25%;
+	height: 330px;
+	color: #FFFFFF;
 }
 
 .three {
-	max-width: 25%;
+	background-image: url("http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg") ;
+	background-size: cover;
 	float: left;
-	height: 300px;
+	display: inline;
+	position: relative;
+	width: 25%;
+	height: 330px;
+	color: #FFFFFF;
 }
 
 .four {
-	max-width: 25%;
+	background-image: url("http://www.aboutmyplanet.com/wp-content/uploads/2012/01/scottish-whiskey.jpg") ;
+	background-size: cover;
 	float: left;
-	height: 300px;
+	display: inline;
+	position: relative;
+	width: 25%;
+	height: 330px;
+	color: #FFFFFF;
 }
 
+.overlay-2 {
+	background: rgba(17,117,192,0.75 );
+	height: 330px;
+}
 
+.overlay-2:hover {
+	opacity: 0;
+}
 
+.text {
+	color: #083452;
+	letter-spacing: 0.1px; 
+	font-size: 30px;
+	font-family: 'Oswald';
+	line-height: 124%;
+	margin-left: 19px;
+	margin-right: 20px;
+	position: absolute;
+	bottom: 15px;
+}
 
-
-
+.text:hover {
+	color: #FFFFFF;
+	letter-spacing: 0.1px; 
+	font-size: 30px;
+	font-family: 'Oswald';
+	line-height: 124%;
+	margin-left: 19px;
+	margin-right: 20px;
+	position: absolute;
+	bottom: 15px;
+}
