@@ -160,44 +160,67 @@ body {
 
 .container-2 {
 	width: 90%;
-}
-
-.left-e {
-	position: block;
 	float: left;
 	color: #5e686f;
 	text-align: left;
+	font-family: 'Asap';
+	letter-spacing: -0.2px;
+	line-height: 163%;
+}
+
+.left-e {
 	padding-top: 13px;
+}
+
+.left-e p {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
 
-.left-e p {
-	font-family: 'Asap';
-	letter-spacing: -0.2px;
-	line-height: 163%;
-}
-
 .left-f {
-	position: block;
-	float: left;
-	color: #5e686f;
-	text-align: left;
 	padding-top: 10px;
-}
-
-.left-f {
-	font-family: 'Asap';
-	letter-spacing: -0.2px;
-	line-height: 163%;
 }
 
 .left-f a {
 	color: #a3b3bf;
-	text-align: left;
-	letter-spacing: -0.2px;
-	line-height: 163%;
-	font-family: 'Asap';
+}
+
+.vertical-line {
+	width: 2px;
+	background-color: #a3b3bf;
+	height: 55px;
+	position: inline;
+	float: left;
+	margin-left: 5px;
+	margin-right: 18px;
+	margin-top: 4px;
+}
+
+.left-h p {
+	position: relative;
+	color: #106db3;
+	letter-spacing: 0.1px;
+	font-size: 30px;
+	font-family: 'PT Sans';
+	padding-top: 10px
+}
+
+.left-i {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.left-i a {
+	color: #106db3;
+}
+
+.left-i p {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.left-j {
+	padding-top: 10px;
 }
 
 
