@@ -1,3 +1,5 @@
+/*<!-- TAD"S DAY TWO HOMEWORK HTML PROJECT -->*/
+
 h1, h2, h3, h4, h5, h6, span {
 	font-family: 'Oswald', 'PT Sans', 'Asap', 'PT Sans Narrow', sans-serif;
 }
@@ -12,6 +14,9 @@ body * {
 	vertical-align: top;
 }
 
+/*<!-- HEADER CONTAINER STARTS -->*/
+/*<!-- LEFT & RIGHT COLUMNS CREATED -->*/
+
 .container-home {
 	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
 	height: 523px;
@@ -21,7 +26,7 @@ body * {
 }
 
 .overlay {
-	background: rgba(17,117,192,0.83 );
+	background: rgba(17,117,192,0.8 );
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -88,6 +93,9 @@ body * {
 	font-family: 'PT Sans';
 	line-height: 129%;
 }
+
+/*<!-- HEADER CONTAINER ENDS -->*/
+/*<!-- LEFT & RIGHT COLUMNS ARE DEFINED -->*/
 
 .main-content {
 	width: 989px;
@@ -161,6 +169,8 @@ body * {
 	font-family: 'PT Sans';
 }
 
+/*<!-- LEFTBAR ARTICLE TEXT STARTS -->*/
+
 .article-text {
 	width: 90%;
 	height: auto;
@@ -231,6 +241,9 @@ body * {
 	margin-bottom: 19px;
 }
 
+/*<!-- LEFTBAR ARTICLE TEXTS ENDS -->*/
+/*<!-- COMMENT BUTTONS START -->*/
+
 .rack div {
 	display: inline;
 	position: relative;
@@ -257,7 +270,7 @@ body * {
 	display: inline;
 	height: 30px;
 }
-	
+
 .rack-a p {
 	float: left;
 	position: relative;
@@ -324,6 +337,10 @@ body * {
 	margin-top: 0px;
 	margin-right: 10px;
 }
+
+/*<!-- COMMENT BUTTONS END -->*/
+/*<!-- LEFTBAR ENDS -->*/
+/*<!-- RIGHTBAR STARTS -->*/
 
 .rightbar {
 	text-align: center;
@@ -397,6 +414,8 @@ body * {
 	letter-spacing: -0.2px;
 	line-height: 175%;
 }
+/*<!-- RIGHTBAR ENDS -->*/
+/*<!-- LOWER CONTENT FOOTER STARTS -->*/
 
 .lower-content {
 	height: auto;
@@ -428,6 +447,8 @@ body * {
 	line-height: 25%;
 	margin: 0 auto;
 }
+
+/*<!-- LOWER 4 PICTURE FOOTER STARTS -->*/
 
 .inside-2 {
 	margin: 0 auto;
@@ -483,6 +504,8 @@ body * {
 	bottom: 15px;
 }
 
+/*<!-- VERY BOTTOM FOOTER STARTS -->*/
+
 .bottom {
 	float: left;
 	position: relative;
@@ -537,4 +560,7 @@ body * {
 	letter-spacing: 0.4px;
 }
 
-
+/*<!-- INSIDE-2 ENDS -->*/
+/*<!-- TOP FOOTER ENDS -->*/
+/*<!-- CONTAINTER-3 ENDS -->*/
+/*<!-- BODY ENDS -->*/
