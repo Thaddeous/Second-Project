@@ -11,6 +11,7 @@ body {
 .home {
 	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
 	height: 523px;
+	width: 1300px;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
@@ -97,7 +98,7 @@ body {
 	text-align: left;
 	float: left;
 	width: 71%;
-	padding-top: 12px;
+	padding-top: 13px;
 }
 
 .left-a span {
@@ -186,8 +187,8 @@ body {
 
 .vertical-line {
 	width: 2px;
-	background-color: #a3b3bf;
-	height: 55px;
+	background-color: #d3d3d3;
+	height: 56px;
 	position: inline;
 	float: left;
 	margin-left: 5px;
@@ -201,7 +202,8 @@ body {
 	letter-spacing: 0.1px;
 	font-size: 30px;
 	font-family: 'PT Sans';
-	padding-top: 10px
+	padding-top: 10px;
+	padding-bottom: 8px;
 }
 
 .left-i {
@@ -255,7 +257,7 @@ body {
 }
 
 .content-a {
-	margin-top: 52px;
+	margin-top: 50px;
 	float: center;	
 }
 
@@ -298,8 +300,9 @@ body {
 }
 
 .horizontal-line {
-	width: 100%;
-	background-color: #a3b3bf;
+	width: 1300px;
+	margin: 0 auto;
+	background-color: #e1e7ea;
 	height: 1px;
 }
 
@@ -314,17 +317,12 @@ body {
 	line-height: 25%;
 }
 
-
-footer {
-	margin: 0 auto;
-	padding: 0px 0px 0px 0px;
-}
-
 .inside-2 {
 	margin: 0 auto;
+	height: 427px;
 	width: 1300px;
+	padding: 0px 0px 0px 0px;
 }
-
 	
 .one {
 	background-image: url("http://s3.favim.com/orig/41/boy-guy-surf-surfer-surfing-Favim.com-344177.jpg") ;
@@ -336,7 +334,6 @@ footer {
 	height: 330px;
 	color: #FFFFFF;
 }
-
 
 .two {
 	background-image: url("http://pigpartsandbeer.com/wp-content/uploads/2013/07/beer-flight.jpg-.jpg") ;
@@ -403,3 +400,52 @@ footer {
 	position: absolute;
 	bottom: 15px;
 }
+
+.bottom {
+	float: left;
+	position: relative;
+	display: inline;
+}
+
+.bottom-a {
+	background: #083452;
+	height: 97px;
+	width: 1300px;
+	margin: 0 auto;
+	display: inline;
+	float: left;
+	color: #a3b3bf;
+	text-align: left;
+	font-family: 'Asap';
+	letter-spacing: 0px;
+	line-height: 163%;
+	font-size: 14px;
+}
+
+.pic-a img {
+	float: left;
+	position: relative;
+	display: inline;
+	margin-left: 165px;
+	margin-top: 27px;
+}
+
+.text-a p {
+	float: left;
+	position: relative;
+	display: inline;
+	margin-left: 11px;
+	margin-top: 36px;
+	margin-right: 285px;
+}
+
+.text-b p {
+	float: left;
+	position: relative;
+	display: inline;
+	margin-left: 8px;	
+	margin-top: 36px;
+	letter-spacing: 0.4px;
+}
+
+
