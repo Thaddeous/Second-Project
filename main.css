@@ -8,10 +8,13 @@ body {
 	z-index: 1;
 }
 
-.home {
+body * {
+	vertical-align: top;
+}
+
+.container-home {
 	background-image: url("http://3.bp.blogspot.com/-qH8euG_izR8/Tj1MURNNHsI/AAAAAAAAAQA/OlUZ-y5b1fg/s1600/Awesomely+-+Ocean+waves.jpg") ;
 	height: 523px;
-	width: 1300px;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
@@ -86,9 +89,9 @@ body {
 	line-height: 129%;
 }
 
-.container {
+.main-content {
 	width: 989px;
-	height: 931px;
+	height: auto;
 	margin: 0 auto;
 	padding-top: 50px;
 	position: relative;
@@ -96,8 +99,8 @@ body {
 
 .leftbar {
 	text-align: left;
-	float: left;
-	width: 71%;
+	display: inline-block;
+	width: 70%;
 	padding-top: 13px;
 }
 
@@ -158,8 +161,9 @@ body {
 	font-family: 'PT Sans';
 }
 
-.container-2 {
+.article-text {
 	width: 90%;
+	height: auto;
 	float: left;
 	color: #5e686f;
 	text-align: left;
@@ -203,8 +207,8 @@ body {
 	letter-spacing: 0.1px;
 	font-size: 29px;
 	font-family: 'PT Sans';
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 11px;
+	padding-bottom: 9px;
 }
 
 .left-i {
@@ -226,12 +230,6 @@ body {
 	padding-bottom: 0px;
 	margin-bottom: 19px;
 }
-
-
-
-
-
-
 
 .rack div {
 	display: inline;
@@ -327,28 +325,12 @@ body {
 	margin-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .rightbar {
-	margin: 0 auto;
 	text-align: center;
-	float: right;
+	display: inline-block;
 	width: 29%;
 	padding-top: 33px;
 	position: relative;
-	display: block;
 }
 
 .social-a span {
@@ -391,7 +373,7 @@ body {
 }
 
 .content-c {
-	margin-top: 44px;
+	margin-top: 39px;
 	float: center;
 	text-align: left;
 	margin-bottom: 4px;
@@ -416,11 +398,23 @@ body {
 	line-height: 175%;
 }
 
+.lower-content {
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 54px;
+}
+
 .horizontal-line {
-	width: 1300px;
 	margin: 0 auto;
 	background-color: #e1e7ea;
 	height: 1px;
+	width: 100%;
+}
+
+.news div {
+	height: 1px;
+	margin: 0 auto;
 }
 
 .news {
@@ -432,82 +426,53 @@ body {
 	font-family: 'Oswald';
 	height: 83px;
 	line-height: 25%;
+	margin: 0 auto;
 }
 
 .inside-2 {
 	margin: 0 auto;
-	height: 427px;
-	width: 1300px;
-	padding: 0px 0px 0px 0px;
+	height: 330px;
+}
+
+.box {
+	background-size: cover;
+	float: left;
+	position: relative;
+	width: 25%;
+	height: 330px;
+	color: #FFFFFF;
 }
 	
 .one {
 	background-image: url("http://s3.favim.com/orig/41/boy-guy-surf-surfer-surfing-Favim.com-344177.jpg") ;
-	background-size: cover;
-	float: left;
-	display: inline;
-	position: relative;
-	width: 25%;
-	height: 330px;
-	color: #FFFFFF;
 }
 
 .two {
 	background-image: url("http://pigpartsandbeer.com/wp-content/uploads/2013/07/beer-flight.jpg-.jpg") ;
-	background-size: cover;
-	float: left;
-	display: inline;
-	position: relative;
-	width: 25%;
-	height: 330px;
-	color: #FFFFFF;
 }
 
 .three {
 	background-image: url("http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg") ;
-	background-size: cover;
-	float: left;
-	display: inline;
-	position: relative;
-	width: 25%;
-	height: 330px;
-	color: #FFFFFF;
 }
 
 .four {
 	background-image: url("http://www.aboutmyplanet.com/wp-content/uploads/2012/01/scottish-whiskey.jpg") ;
-	background-size: cover;
-	float: left;
-	display: inline;
-	position: relative;
-	width: 25%;
-	height: 330px;
-	color: #FFFFFF;
 }
 
 .overlay-2 {
 	background: rgba(17,117,192,0.75 );
 	height: 330px;
+	color: #083452;
+	position: relative;
 }
 
 .overlay-2:hover {
-	opacity: 0;
+	background: none;
+	color: #ffffff;
 }
 
-.text {
-	color: #083452;
-	letter-spacing: 0.1px; 
-	font-size: 30px;
-	font-family: 'Oswald';
-	line-height: 124%;
-	margin-left: 19px;
-	margin-right: 20px;
+.overlay-2 span {
 	position: absolute;
-	bottom: 15px;
-}
-
-.text:hover {
-	color: #FFFFFF;
 	letter-spacing: 0.1px; 
 	font-size: 30px;
 	font-family: 'Oswald';
@@ -521,18 +486,26 @@ body {
 .bottom {
 	float: left;
 	position: relative;
-	display: inline;
+
+}
+.bottom div {
+	margin: 0 auto;
+
+}
+
+.bottom-a div { 
+	margin: 0 auto;
+	float: center;
 }
 
 .bottom-a {
 	background: #083452;
 	height: 97px;
-	width: 1300px;
+	width: 100%;
 	margin: 0 auto;
 	display: inline;
 	float: left;
 	color: #a3b3bf;
-	text-align: left;
 	font-family: 'Asap';
 	letter-spacing: 0px;
 	line-height: 163%;
@@ -553,14 +526,13 @@ body {
 	display: inline;
 	margin-left: 11px;
 	margin-top: 36px;
-	margin-right: 285px;
 }
 
 .text-b p {
-	float: left;
+	float: right;
 	position: relative;
 	display: inline;
-	margin-left: 8px;	
+	margin-right: 164px;	
 	margin-top: 36px;
 	letter-spacing: 0.4px;
 }
