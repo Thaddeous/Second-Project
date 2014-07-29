@@ -1,4 +1,4 @@
-/*<!-- TAD"S DAY TWO HOMEWORK HTML PROJECT -->*/
+<!-- TAD"S DAY TWO HOMEWORK HTML PROJECT -->*/
 
 h1, h2, h3, h4, h5, h6, span {
 	font-family: 'Oswald', 'PT Sans', 'Asap', 'PT Sans Narrow', sans-serif;
@@ -337,10 +337,11 @@ body * {
 	margin-top: 0px;
 	margin-right: 10px;
 }
-
+/* =========================== */
 /*<!-- COMMENT BUTTONS END -->*/
 /*<!-- LEFTBAR ENDS -->*/
 /*<!-- RIGHTBAR STARTS -->*/
+/* =========================== */
 
 .rightbar {
 	text-align: center;
@@ -374,7 +375,7 @@ body * {
 
 .content-a {
 	margin-top: 50px;
-	float: center;	
+	float: center; 	
 }
 
 .content-b {
@@ -563,4 +564,4 @@ body * {
 /*<!-- INSIDE-2 ENDS -->*/
 /*<!-- TOP FOOTER ENDS -->*/
 /*<!-- CONTAINTER-3 ENDS -->*/
-/*<!-- BODY ENDS -->*/
+/*<!-- BODY ENDS -->
